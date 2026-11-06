@@ -229,7 +229,7 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
 .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 8px 0 24px; }
 .metric { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 18px 20px; background: var(--surface); }
 .metric b { display: block; font: 600 30px var(--font-head); color: var(--text); }
-.metric span { color: var(--muted); font-size: 13px; }
+.metric > span { color: var(--muted); font-size: 13px; }
 
 /* ---------------- Panels ---------------- */
 .panel { padding: 72px 0 24px; border-top: 1px solid var(--line); }
