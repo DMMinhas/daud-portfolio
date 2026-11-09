@@ -30,7 +30,7 @@
         <span class="brand__mark">DM</span>
         <span class="brand__text">
           <strong>Daud M. Minhas</strong>
-          <small class="mono"><span class="dot dot--live"></span>SYSTEM ONLINE · REV 2026.11 · SAARBRÜCKEN, GER</small>
+          <small class="mono"><span class="dot dot--live"></span>DIGITALIZATION · ENERGY · SECURITY</small>
         </span>
       </a>
       <nav class="nav" id="nav" aria-label="Primary">
@@ -38,9 +38,9 @@
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#security">Security</a>
-        <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
         <a href="#credentials">Credentials</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
       </nav>
       <div class="topbar__tools">
@@ -59,13 +59,21 @@
     <!-- ============ HERO / DIGITAL TWIN ============ -->
     <section class="hero" id="home">
       <div class="hero__text">
-        <p class="eyebrow mono">DOC. ID-00 · PROFILE / DIGITALIZATION · ENERGY · SECURITY</p>
+        <p class="prompt mono">
+          <span class="prompt__path">daud@zema: ~/critical-energy-grids</span>
+          <span class="prompt__status"><span class="dot dot--grid"></span>GRID MONITOR · ONLINE</span>
+          <span>REV 2026.11</span>
+          <span>SAARBRÜCKEN, GER · 49.23°N 7.00°E</span>
+        </p>
         <div class="hero__id">
           <img src="images/profile.jpg" alt="Portrait of Daud Mustafa Minhas" class="avatar" width="96" height="96" onerror="this.onerror=null;this.src='images/avatar.svg'" />
-          <div>
-            <h1>Daud Mustafa <span>Minhas</span> <sup class="mono">Ph.D.-Eng</sup></h1>
-          </div>
+          <ul class="creds mono" aria-label="Credentials and affiliations">
+            <li><b>DR.-ING. · CISM<sup>®</sup></b></li>
+            <li>ZEMA GGMBH (SEI)</li>
+            <li>SAARLAND UNIVERSITY</li>
+          </ul>
         </div>
+        <h1>Daud Mustafa <span>Minhas</span></h1>
         <p class="hero__role">
           <span class="mono">&gt;</span> <span id="roleRotator">Digitalization &amp; AI Engineer</span><span class="caret">_</span>
         </p>
@@ -266,64 +274,12 @@
       </div>
     </section>
 
-    <!-- ============ 06 PUBLICATIONS ============ -->
-    <section class="panel" id="publications">
+    <!-- ============ 06 CREDENTIALS ============ -->
+    <section class="panel" id="credentials">
       <header class="panel__head reveal">
         <span class="panel__num mono">06</span>
         <div>
-          <p class="eyebrow mono">PAPERS · COMPLETE PUBLICATIONS LIST</p>
-          <h2>Publications</h2>
-          <p class="panel__sub">The grouping highlights peer-reviewed articles in internationally indexed and higher-visibility outlets. It does not imply that an impact factor measures the quality of an individual publication.</p>
-        </div>
-      </header>
-      <div class="pub-tools reveal">
-        <div class="filters mono" id="pubFilters" role="toolbar" aria-label="Filter publications"></div>
-        <label class="search mono">
-          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-          <input type="search" id="pubSearch" placeholder="Search title, venue, co-author…" aria-label="Search publications" />
-        </label>
-      </div>
-      <p class="pub-count mono" id="pubCount"></p>
-      <ol class="pubs" id="pubList"></ol>
-      <p class="dissertation reveal"><span class="mono">DOCTORAL DISSERTATION</span> <strong>D. M. Minhas</strong>, “Component-Based Dynamic Modelling, Optimization and Distributed Control of Home Area Power Networks”, doctoral dissertation, Universität des Saarlandes.</p>
-    </section>
-
-    <!-- ============ 07 TEACHING ============ -->
-    <section class="panel" id="teaching">
-      <header class="panel__head reveal">
-        <span class="panel__num mono">07</span>
-        <div>
-          <p class="eyebrow mono">DOC. EDU-07 · TEACHING &amp; MENTORSHIP</p>
-          <h2>Teaching</h2>
-          <p class="panel__sub">Project-based learning, live coding, Git and Python, used to turn control, optimisation and AI-agent concepts into practical engineering skills.</p>
-        </div>
-      </header>
-      <div class="courses" id="courses"></div>
-      <div class="teach-extra reveal">
-        <div class="note-card"><h3 class="mono">// MENTORSHIP</h3><p>Supervised numerous Master’s and Bachelor’s theses on power load disaggregation, digital twins, appliance classification and cyber-physical network security.</p></div>
-        <div class="note-card"><h3 class="mono">// GRANTS</h3><p>Key contributor and work-package lead on the €4.3M BMWE-funded SURF smart-grid flexibility proposal across academic and industrial teams.</p></div>
-        <div class="note-card"><h3 class="mono">// ERASMUS+</h3><p>Led EU Erasmus+ capacity enhancement proposals (Energy4U, DigiCRAFT, ReCAP) and international researcher mobility programmes.</p></div>
-      </div>
-    </section>
-
-    <!-- ============ 08 EDUCATION ============ -->
-    <section class="panel" id="education">
-      <header class="panel__head reveal">
-        <span class="panel__num mono">08</span>
-        <div>
-          <p class="eyebrow mono">DOC. EDU-08 · EDUCATION &amp; POSTGRADUATE TRAINING</p>
-          <h2>Education</h2>
-        </div>
-      </header>
-      <div class="edu" id="eduList"></div>
-    </section>
-
-    <!-- ============ 09 CREDENTIALS ============ -->
-    <section class="panel" id="credentials">
-      <header class="panel__head reveal">
-        <span class="panel__num mono">09</span>
-        <div>
-          <p class="eyebrow mono">QUAL. 09 · SKILLS, CERTIFICATIONS &amp; MEMBERSHIPS</p>
+          <p class="eyebrow mono">QUAL. 06 · SKILLS, CERTIFICATIONS &amp; MEMBERSHIPS</p>
           <h2>Skills &amp; credentials</h2>
         </div>
       </header>
@@ -341,12 +297,42 @@
       </ul>
     </section>
 
-    <!-- ============ 10 TALKS & AWARDS ============ -->
+    <!-- ============ 07 EDUCATION ============ -->
+    <section class="panel" id="education">
+      <header class="panel__head reveal">
+        <span class="panel__num mono">07</span>
+        <div>
+          <p class="eyebrow mono">DOC. EDU-07 · EDUCATION &amp; POSTGRADUATE TRAINING</p>
+          <h2>Education</h2>
+        </div>
+      </header>
+      <div class="edu" id="eduList"></div>
+    </section>
+
+    <!-- ============ 08 TEACHING ============ -->
+    <section class="panel" id="teaching">
+      <header class="panel__head reveal">
+        <span class="panel__num mono">08</span>
+        <div>
+          <p class="eyebrow mono">DOC. EDU-08 · TEACHING &amp; MENTORSHIP</p>
+          <h2>Teaching</h2>
+          <p class="panel__sub">Project-based learning, live coding, Git and Python, used to turn control, optimisation and AI-agent concepts into practical engineering skills.</p>
+        </div>
+      </header>
+      <div class="courses" id="courses"></div>
+      <div class="teach-extra reveal">
+        <div class="note-card"><h3 class="mono">// MENTORSHIP</h3><p>Supervised numerous Master’s and Bachelor’s theses on power load disaggregation, digital twins, appliance classification and cyber-physical network security.</p></div>
+        <div class="note-card"><h3 class="mono">// GRANTS</h3><p>Key contributor and work-package lead on the €4.3M BMWE-funded SURF smart-grid flexibility proposal across academic and industrial teams.</p></div>
+        <div class="note-card"><h3 class="mono">// ERASMUS+</h3><p>Led EU Erasmus+ capacity enhancement proposals (Energy4U, DigiCRAFT, ReCAP) and international researcher mobility programmes.</p></div>
+      </div>
+    </section>
+
+    <!-- ============ 09 TALKS & AWARDS ============ -->
     <section class="panel" id="talks">
       <header class="panel__head reveal">
-        <span class="panel__num mono">10</span>
+        <span class="panel__num mono">09</span>
         <div>
-          <p class="eyebrow mono">LOG. 10 · TALKS, AWARDS &amp; SERVICE</p>
+          <p class="eyebrow mono">LOG. 09 · TALKS, AWARDS &amp; SERVICE</p>
           <h2>Talks, awards &amp; service</h2>
         </div>
       </header>
@@ -357,6 +343,28 @@
           <p>Served on technical programme committees for IEEE international conferences. Regular expert reviewer for premier journals and conferences across <strong>IEEE, Elsevier, MDPI, ACM and IET</strong>, including <em>IEEE Access, IET Cyber-Physical Systems, ACM TIST</em> and <em>MDPI Energies / Smart Cities</em>.</p>
         </div>
       </div>
+    </section>
+
+    <!-- ============ 10 PUBLICATIONS ============ -->
+    <section class="panel" id="publications">
+      <header class="panel__head reveal">
+        <span class="panel__num mono">10</span>
+        <div>
+          <p class="eyebrow mono">PAPERS · COMPLETE PUBLICATIONS LIST</p>
+          <h2>Publications</h2>
+          <p class="panel__sub">The grouping highlights peer-reviewed articles in internationally indexed and higher-visibility outlets. It does not imply that an impact factor measures the quality of an individual publication.</p>
+        </div>
+      </header>
+      <div class="pub-tools reveal">
+        <div class="filters mono" id="pubFilters" role="toolbar" aria-label="Filter publications"></div>
+        <label class="search mono">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <input type="search" id="pubSearch" placeholder="Search title, venue, co-author…" aria-label="Search publications" />
+        </label>
+      </div>
+      <p class="pub-count mono" id="pubCount"></p>
+      <ol class="pubs" id="pubList"></ol>
+      <p class="dissertation reveal"><span class="mono">DOCTORAL DISSERTATION</span> <strong>D. M. Minhas</strong>, “Component-Based Dynamic Modelling, Optimization and Distributed Control of Home Area Power Networks”, doctoral dissertation, Universität des Saarlandes.</p>
     </section>
 
     <!-- ============ CONTACT ============ -->
